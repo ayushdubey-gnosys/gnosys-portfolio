@@ -185,7 +185,7 @@ export default function ProjectDetails() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] pt-[72px] pb-20">
+    <div className="min-h-screen bg-[#F8FAFC] pt-[72px] pb-0">
 
       {/* 1. TOP FULL-SCREEN UN-CROPPED SCREENSHOT SLIDER (< > Buttons) */}
       {/* TOP HEADER: Project Heading right below Navbar (`navbar ke baad fir images`) */}
@@ -504,7 +504,9 @@ export default function ProjectDetails() {
       </div>
 
       {/* Bottom Contact Section */}
-      <ContactSection />
+      <div className="bg-white flex flex-col w-full">
+        <ContactSection />
+      </div>
     </div>
   );
 }

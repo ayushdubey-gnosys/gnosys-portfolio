@@ -162,7 +162,7 @@ export default function Gallery({ images, title = "Curated Visual Excellence", s
               <motion.div
                 key={`r2-${index}`}
                 className="group relative rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 shadow-sm hover:shadow-2xl transition-all duration-500 cursor-pointer shrink-0 w-[14rem] md:w-[18rem] lg:w-[22rem] aspect-[16/10]"
-                onClick={() => openLightbox(half + (index % row2.length))}
+                onClick={() => openLightbox(index % galleryItems.length)}
               >
                 <img
                   src={typeof item === 'string' ? item : item.src}

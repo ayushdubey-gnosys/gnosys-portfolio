@@ -146,12 +146,12 @@ export default function Home() {
       </LazySection>
 
       {/* 6. Visual Screenshots Gallery with Lightbox */}
-      <LazySection minHeight="60vh">
+      <LazySection minHeight="0vh">
         <Gallery />
       </LazySection>
 
       {/* Industry Collaboration  IIT-IIM section .............. */}
-      <LazySection id="academic-alliances" minHeight="40vh">
+      <LazySection id="academic-alliances" minHeight="0vh">
         <IndustryCollaboration />
       </LazySection>
 
@@ -161,7 +161,9 @@ export default function Home() {
       </LazySection>
 
       {/* 8. Contact & Consultation Section (#contact) */}
-      <ContactSection />
+      <div className="bg-white flex flex-col w-full">
+        <ContactSection />
+      </div>
 
       {/* 9. Scroll Progress / Back to Top Button */}
       <ScrollProgressButton />
