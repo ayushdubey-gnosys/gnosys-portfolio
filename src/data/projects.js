@@ -45,6 +45,33 @@ import gloryImg6 from "../assets/projects/glory/image copy 6.png";
 
 import jmkLogo from "../assets/projects/jmk-fire-protection/logo.png";
 
+import aobeHero from "../assets/projects/theartofbusinessenglish/hero.png";
+import aobeImg1 from "../assets/projects/theartofbusinessenglish/image copy.png";
+import aobeImg2 from "../assets/projects/theartofbusinessenglish/image copy 2.png";
+import aobeImg3 from "../assets/projects/theartofbusinessenglish/image copy 3.png";
+import aobeImg4 from "../assets/projects/theartofbusinessenglish/image copy 4.png";
+import aobeImg5 from "../assets/projects/theartofbusinessenglish/image copy 5.png";
+import aobeImg6 from "../assets/projects/theartofbusinessenglish/image copy 6.png";
+
+import andrewHero from "../assets/projects/andrewambrosius/hero.png";
+import andrewImg1 from "../assets/projects/andrewambrosius/image copy.png";
+import andrewImg2 from "../assets/projects/andrewambrosius/image copy 2.png";
+import andrewImg3 from "../assets/projects/andrewambrosius/image copy 3.png";
+import andrewImg4 from "../assets/projects/andrewambrosius/image copy 4.png";
+import andrewImg5 from "../assets/projects/andrewambrosius/image copy 5.png";
+import andrewImg6 from "../assets/projects/andrewambrosius/image copy 6.png";
+
+import campusHero from "../assets/projects/campus-castellsimmerscom/hero.png";
+import campusImg1 from "../assets/projects/campus-castellsimmerscom/image copy.png";
+import campusImg2 from "../assets/projects/campus-castellsimmerscom/image copy 2.png";
+import campusImg3 from "../assets/projects/campus-castellsimmerscom/image copy 3.png";
+import campusImg4 from "../assets/projects/campus-castellsimmerscom/image copy 4.png";
+import campusImg5 from "../assets/projects/campus-castellsimmerscom/image copy 5.png";
+
+import academyHero from "../assets/projects/academy-theartofbusinessenglish/hero.png";
+import academyImg1 from "../assets/projects/academy-theartofbusinessenglish/image copy.png";
+import academyImg2 from "../assets/projects/academy-theartofbusinessenglish/image copy 2.png";
+import academyImg3 from "../assets/projects/academy-theartofbusinessenglish/image copy 3.png";
 const rawProjectsData = [
   {
     id: 1,
@@ -990,113 +1017,176 @@ const rawProjectsData = [
   {
     id: 25,
     slug: "theartofbusinessenglish",
-    title: "The Art of Business English",
+    title: "The Art of Business English – Business English Learning Platform",
     category: "WordPress",
-    description: "A professional platform for learning Business English.",
+    description: "A professional online learning platform designed to help individuals and business professionals develop practical English communication skills for the workplace.",
     techStack: ["WordPress", "PHP", "HTML5", "CSS3", "JavaScript"],
-    cover: "https://images.unsplash.com/photo-1512411986161-0062fb29307f?auto=format&fit=crop&w=1200&q=80",
-    screenshots: [],
+    cover: aobeHero,
+    screenshots: [
+      aobeImg1,
+      aobeImg2,
+      aobeImg3,
+      aobeImg4,
+      aobeImg5,
+      aobeImg6
+    ],
     website: "https://theartofbusinessenglish.com/",
     year: "2024-Present",
-    industry: "Education",
+    industry: "Education & Professional Training",
     services: ["Web Development", "WordPress Customization"],
     timeline: "Production Release",
-    overview: "The Art of Business English is a platform that offers courses and resources to help professionals improve their business English skills.",
-    challenges: "Creating an engaging and user-friendly experience for learning.",
-    solution: "Developed a custom WordPress website optimized for speed and engagement.",
-    features: ["Responsive Design", "Course Integration", "Blog Platform"],
+    overview: "The Art of Business English is a professional online learning platform designed to help individuals and business professionals develop practical English communication skills for the workplace. The platform provides access to coaching programs, online courses, podcasts, and personalized learning resources focused on improving confidence in real-world business communication.",
+    challenges: "Enabling professionals to enhance their business English proficiency through structured coaching, self-paced learning resources, and expert guidance. What is the Platform?: A complete digital hub where learners can explore training programs, connect with the instructor, and access educational content from anywhere.",
+    solution: "We designed a modern user interface focused on delivering a professional learning experience. Core Objective: To strengthen the online presence of the academy by simplifying course discovery, learner engagement, and communication across desktop, tablet, and mobile devices.",
+    features: [
+      "Professional Profile & Coaching Setup: Dedicated sections for coaching programs, online learning, and professional introduction of the instructor.",
+      "Business English Podcast Integration: Seamless access to educational podcast episodes with structured subscription options.",
+      "Course & Training Information: Comprehensive course information covering presentations, negotiations, meetings, and business writing.",
+      "Member Area for Registered Learners: Secure and accessible member area providing personalized learning resources and engagement.",
+      "Responsive & SEO-Optimized Architecture: Fully responsive experience optimized for desktop, tablet, and mobile devices, combined with an SEO-friendly website structure.",
+      "Clear Navigation & User Flow: Intuitive navigation engineered for accessing learning resources and academy information effortlessly.",
+      "Modern & Professional UI: Clean, premium interface designed to reflect the academy's professional brand and support career growth.",
+      "Modules Included: Home Page, About Andrew, The AOBE Academy, Coaching Programs, Business English Podcast, Member Area, Contact Us, Course & Training Information."
+    ],
     developmentProcess: [
-      { step: "01", title: "Design & Planning", desc: "Crafting the user interface and planning the learning paths." },
-      { step: "02", title: "Development", desc: "Implementing the design using WordPress and custom plugins." }
+      { step: "01", title: "Platform Architecture & UI Design", desc: "Designed a clean, premium interface reflecting the academy's professional brand for optimal learner engagement." },
+      { step: "02", title: "Platform Development & Integration", desc: "Implemented coaching services, podcast sections, and secure member areas for seamless business English education." }
     ],
     testimonial: {
-      quote: "The website perfectly captures our brand and makes learning accessible to our students.",
-      author: "Founder",
-      role: "The Art of Business English"
+      quote: "The Art of Business English is a comprehensive digital learning platform that combines coaching services, online education, podcasts, and professional development resources into a single experience. Its responsive design, structured content, and seamless navigation make it an effective platform for delivering high-quality business English education.",
+      author: "Andrew Ambrosius",
+      role: "Founder & Instructor"
     }
   },
   {
     id: 26,
     slug: "andrewambrosius",
-    title: "Andrew Ambrosius Portfolio",
+    title: "Andrew Ambrosius – Executive Coaching Platform",
     category: "WordPress",
-    description: "A personal portfolio and blog.",
+    description: "A professional executive coaching platform designed to help business leaders, entrepreneurs, and professionals unlock their full potential through personalized coaching programs.",
     techStack: ["WordPress", "PHP", "HTML5", "CSS3", "JavaScript"],
-    cover: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-    screenshots: [],
+    cover: andrewHero,
+    screenshots: [
+      andrewImg1,
+      andrewImg2,
+      andrewImg3,
+      andrewImg4,
+      andrewImg5,
+      andrewImg6
+    ],
     website: "https://andrewambrosius.com/",
     year: "2024-Present",
-    industry: "Personal Brand",
+    industry: "Executive Coaching & Professional Development",
     services: ["Web Development", "Portfolio Design"],
     timeline: "Production Release",
-    overview: "A clean and modern personal portfolio website to showcase work and blog posts.",
-    challenges: "Building a lightweight and fast portfolio site.",
-    solution: "Used WordPress with a custom theme approach.",
-    features: ["Portfolio Showcase", "Responsive Layout", "Blog Engine"],
+    overview: "Andrew Ambrosius is a professional executive coaching platform designed to help business leaders, entrepreneurs, and professionals unlock their full potential through personalized coaching programs. The platform provides a centralized space where users can explore coaching services, book consultations, access online courses, read insightful articles, and manage their learning journey through a secure client portal.",
+    challenges: "Empowering executives and professionals with practical coaching solutions that enhance leadership capabilities, communication skills, strategic decision-making, and personal development. What is the Platform?: A unified digital experience simplifying consultation booking, client engagement, and access to educational resources.",
+    solution: "We engineered a clean, responsive, and user-friendly experience across all devices. Core Objective: To deliver a premium executive coaching platform highlighting coaching methodology, leadership development, and real-world success stories while strengthening digital presence.",
+    features: [
+      "Professional Executive Coaching: Personalized consultation booking and dedicated programs for leadership, communication, life coaching, and AI deployment.",
+      "Secure Client Login Area: Dedicated portal for registered users to manage their learning journey.",
+      "Online Courses & Learning Resources: Comprehensive resources for continuous professional development.",
+      "Business Blog & Insights: Articles featuring leadership and coaching insights for modern businesses.",
+      "Success Stories & Testimonials: Highlighting coaching outcomes and real-world success stories.",
+      "Structured Coaching Methodology: Personalized development plans and step-by-step coaching process from consultation to ongoing mentoring.",
+      "Multilingual Support: Broader accessibility for a diverse range of executives and entrepreneurs.",
+      "Responsive & Professional UI: Fully responsive interface optimized for desktop, tablet, and mobile devices, designed for modern business leaders.",
+      "Modules Included: Home, Executive Coaching, Coaching Programs, Online Courses, Blog, Book a Consultation, Client Login, Testimonials, Coaching Methodology, FAQ, Contact & Consultation."
+    ],
     developmentProcess: [
-      { step: "01", title: "Design", desc: "Created a minimalist design focusing on content." },
-      { step: "02", title: "Development", desc: "Built out the custom WordPress theme." }
+      { step: "01", title: "Premium Coaching UI & Architecture", desc: "Designed a clean, responsive interface tailored for executives and business leaders." },
+      { step: "02", title: "Platform Development & Integration", desc: "Implemented personalized consultation booking, secure client portals, and educational resources." }
     ],
     testimonial: {
-      quote: "My new portfolio is exactly what I needed to showcase my work.",
+      quote: "Andrew Ambrosius is a comprehensive executive coaching platform that brings together personalized coaching services, leadership development programs, educational resources, and client engagement tools into a unified digital experience. Its structured content and premium design make it an effective platform for delivering high-quality executive coaching services.",
       author: "Andrew Ambrosius",
-      role: "Owner"
+      role: "Executive Coach"
     }
   },
   {
     id: 27,
     slug: "campus-castellsimmerscom",
-    title: "Castell Simmers Campus LMS",
+    title: "Castells Immerscom School of English – Language Learning Platform",
     category: "Moodle",
-    description: "A Moodle-based Learning Management System.",
+    description: "A comprehensive educational platform designed to provide high-quality English language training for learners of all ages.",
     techStack: ["Moodle", "PHP", "MySQL", "HTML5", "CSS3"],
-    cover: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1200&q=80",
-    screenshots: [],
+    cover: campusHero,
+    screenshots: [
+      campusImg1,
+      campusImg2,
+      campusImg3,
+      campusImg4,
+      campusImg5
+    ],
     website: "https://campus.castellsimmerscom.com/",
     year: "2024-Present",
     industry: "Education / E-Learning",
     services: ["LMS Development", "Moodle Customization"],
     timeline: "Production Release",
-    overview: "A dedicated Learning Management System platform for managing and delivering courses efficiently.",
-    challenges: "Customizing Moodle to fit brand guidelines and optimizing performance.",
-    solution: "Implemented a customized Moodle environment with tailored themes and optimized database.",
-    features: ["Course Management", "Student Progress Tracking", "Custom Theme"],
+    overview: "Castells Immerscom School of English is a comprehensive educational platform designed to provide high-quality English language training for learners of all ages. With over 50 years of excellence in English education, the platform offers a complete digital experience where students can explore courses, book classes, access learning materials, and manage their educational journey through a secure member dashboard.",
+    challenges: "Simplifying access to English language education by offering structured learning programs, online resources, and student management features. What is the Platform?: A complete digital experience enabling learners to discover suitable courses, book classes, access educational content, and prepare for internationally recognized English proficiency examinations.",
+    solution: "We developed a modern digital platform that supports learners from primary school students to working professionals. Core Objective: To provide centralized access to learning resources through a secure member portal, enhancing student engagement with structured learning pathways and a responsive user experience.",
+    features: [
+      "Comprehensive Course Catalog: Designed for learners of all age groups including children, teenagers, adults, and businesses.",
+      "Secure Member Dashboard: Centralized portal for enrolled students to manage their educational journey.",
+      "Online Enrollment & Booking System: Streamlined course enrollment and class booking system.",
+      "Cambridge & Trinity Preparation: Specialized programs for internationally recognized English proficiency examinations.",
+      "Business English Training: Dedicated programs for professionals and corporate clients.",
+      "Online Learning Resources: Extensive educational guides and materials accessible anytime.",
+      "Study Abroad Programs: Information and international learning opportunities.",
+      "Responsive Educational UI: User-friendly interface optimized for desktop, tablet, and mobile devices.",
+      "Modules Included: Home, Member Dashboard, Courses, Book a Class, Learning Guides, Student Login, Cambridge Exam Preparation, Business English Programs, Online Courses, Study Abroad Programs, Student Testimonials."
+    ],
     developmentProcess: [
-      { step: "01", title: "Moodle Setup", desc: "Installed and configured the core Moodle LMS." },
-      { step: "02", title: "Theme Customization", desc: "Applied custom branding and UI enhancements." }
+      { step: "01", title: "Educational Platform Architecture", desc: "Designed a clean, structured interface for clear navigation of courses and student services." },
+      { step: "02", title: "Course & Dashboard Integration", desc: "Implemented secure student portals, enrollment systems, and comprehensive learning resources." }
     ],
     testimonial: {
-      quote: "The LMS platform is robust and easy for our students to navigate.",
-      author: "Administrator",
-      role: "Castell Simmers"
+      quote: "Castells Immerscom School of English is a complete digital learning platform that combines course management, student services, online learning resources, and English language education into a seamless experience. Its structured navigation, professional design, and learner-focused experience make it an effective platform for delivering high-quality English language education.",
+      author: "Academic Director",
+      role: "Castells Immerscom School of English"
     }
   },
   {
     id: 28,
     slug: "academy-theartofbusinessenglish",
-    title: "The Art of Business English Academy",
+    title: "The Art of Business English – Online Learning Management System (LMS)",
     category: "Moodle",
-    description: "The Moodle LMS portal for The Art of Business English.",
+    description: "A comprehensive online education platform designed to deliver professional English language and business communication courses.",
     techStack: ["Moodle", "PHP", "MySQL", "HTML5", "CSS3"],
-    cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=80",
-    screenshots: [],
+    cover: academyHero,
+    screenshots: [
+      academyImg1,
+      academyImg2,
+      academyImg3
+    ],
     website: "https://academy.theartofbusinessenglish.com/",
     year: "2024-Present",
     industry: "Education / E-Learning",
     services: ["LMS Development", "Moodle Customization"],
     timeline: "Production Release",
-    overview: "The official academy portal for The Art of Business English, powered by Moodle.",
-    challenges: "Integrating with the main website and providing a seamless learning environment.",
-    solution: "Deployed a dedicated Moodle instance tailored to the brand's specific requirements.",
-    features: ["Interactive Courses", "Student Dashboard", "Secure Access"],
+    overview: "The Art of Business English Learning Management System (LMS) is a comprehensive online education platform designed to deliver professional English language and business communication courses. The platform enables learners to browse available courses, enroll in structured learning programs, manage bookings, and access educational content through a centralized digital learning environment.",
+    challenges: "Providing learners with a seamless online learning experience by offering structured English language courses, business communication programs, and personalized coaching resources. What is the Platform?: A unified digital learning environment supporting self-paced and instructor-led learning to improve communication and business English skills.",
+    solution: "We deployed a robust Learning Management System providing a centralized platform for course discovery, enrollment, and learning management. Core Objective: To simplify course discovery, enrollment, and learning management while supporting continuous skill development through an organized and responsive online platform.",
+    features: [
+      "Comprehensive LMS Platform: Centralized digital learning environment for online English education.",
+      "Categorized Course Catalog: Structured learning programs with Business English and General English learning paths.",
+      "Online Course Enrollment: Streamlined course enrollment and management for students.",
+      "Secure Learner Dashboard: Secure authentication, login system, and dashboard for accessing enrolled courses.",
+      "Advanced Search & Filtering: Course search and filtering functionality for improved accessibility.",
+      "Session Booking System: Integrated booking system for learning sessions and coaching programs.",
+      "Instructor Profiles & Management: Dedicated instructor profiles with course assignments.",
+      "Responsive & Accessible UI: Clean, intuitive, and responsive interface optimized for desktop, tablet, and mobile devices.",
+      "Modules Included: Home, Course Catalog, Online Courses, Business English Courses, General English Courses, Bookings, Student Login, Course Search, Learning Dashboard, Instructor Management."
+    ],
     developmentProcess: [
-      { step: "01", title: "LMS Deployment", desc: "Set up the Moodle environment and database." },
-      { step: "02", title: "Integration", desc: "Customized the UI to match the main brand identity." }
+      { step: "01", title: "LMS Architecture & Planning", desc: "Designed a clean, intuitive interface to support scalable online education with organized course delivery." },
+      { step: "02", title: "Platform Integration & Development", desc: "Deployed a dedicated LMS tailored for Business English and General English training programs with secure access." }
     ],
     testimonial: {
-      quote: "Our academy platform runs smoothly and handles our student load perfectly.",
+      quote: "The Art of Business English LMS is a modern online learning platform that combines course management, learner engagement, and educational resources into a unified digital experience. Its organized course catalog, responsive design, and learner-centric approach make it an effective solution for delivering high-quality online English language and business communication education.",
       author: "Director",
-      role: "Academy"
+      role: "The Art of Business English Academy"
     }
   }
 ];
