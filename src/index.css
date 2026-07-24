@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --color-primary: #2563EB;
+  --color-primary-hover: #1D4ED8;
+  --color-accent: #0F172A;
+  --color-bg-light: #F8FAFC;
+  --color-card-bg: #FFFFFF;
+  --color-border-subtle: #E5E7EB;
+  --color-text-main: #111827;
+  --color-text-muted: #6B7280;
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 100px; /* Accounts for fixed navbar height */
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #F8FAFC;
+    color: #111827;
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Custom Utilities for Premium Agency Feel */
+.glass-navbar {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(229, 231, 235, 0.7);
+}
+
+.card-shadow-soft {
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -2px rgba(15, 23, 42, 0.03);
+}
+
+.card-shadow-hover {
+  box-shadow: 0 20px 38px -10px rgba(15, 23, 42, 0.1), 0 10px 20px -15px rgba(37, 99, 235, 0.08);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Marquee Animations */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marquee-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-marquee {
+  animation: marquee 80s linear infinite;
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 100s linear infinite;
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* Magic Border Animation */
+@keyframes spin-magic {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.magic-border-bg {
+  background: conic-gradient(from 0deg, transparent 60%, #3b82f6 80%, #10b981 100%);
+  animation: spin-magic 3s linear infinite;
+}
+
+.hover-magic-glow:hover {
+  box-shadow: 0 10px 40px -10px rgba(59, 130, 246, 0.4), 0 10px 20px -15px rgba(16, 185, 129, 0.4);
+}
