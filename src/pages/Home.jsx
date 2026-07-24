@@ -161,9 +161,7 @@ export default function Home() {
       </LazySection>
 
       {/* 8. Contact & Consultation Section (#contact) */}
-      <LazySection minHeight="80vh">
-        <ContactSection />
-      </LazySection>
+      <ContactSection />
 
       {/* 9. Scroll Progress / Back to Top Button */}
       <ScrollProgressButton />

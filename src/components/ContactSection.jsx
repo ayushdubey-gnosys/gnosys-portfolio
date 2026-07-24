@@ -29,7 +29,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="pt-8 sm:pt-12 pb-4 sm:pb-8 border-none transition-all duration-300 relative overflow-hidden text-slate-900" style={{ background: 'linear-gradient(180deg, #ffffff 0%, #f8fafc 20%, #f1f5f9 55%, #e2e8f0 85%, #f8fafc 95%, #ffffff 100%)' }}>
+    <section id="contact" className="pt-8 sm:pt-12 pb-16 sm:pb-24 border-none transition-all duration-300 relative overflow-hidden text-slate-900" style={{ background: 'linear-gradient(180deg, #ffffff 0%, #f8fafc 20%, #f1f5f9 55%, #e2e8f0 85%, #f8fafc 95%, #ffffff 100%)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mt-4 items-start">
@@ -94,7 +94,7 @@ export default function ContactSection() {
             </div>
 
             {/* Executive Commitment */}
-            <div className="space-y-4 pt-4 pb-8">
+            <div className="space-y-4 pt-4 pb-0">
               <div className="text-sm font-bold uppercase tracking-widest text-slate-700">
                 Executive Commitment
               </div>
