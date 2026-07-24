@@ -16,7 +16,7 @@ export default function IndustryCollaboration() {
   ];
 
   return (
-    <section className="relative pt-10 pb-16 sm:pt-12 sm:pb-20 bg-[#F8FAFC] overflow-hidden border-y border-slate-200/80">
+    <section className="relative pt-10 pb-16 sm:pt-12 sm:pb-20 bg-[#F8FAFC] overflow-hidden">
       {/* Background glowing accents */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-[120px]"></div>

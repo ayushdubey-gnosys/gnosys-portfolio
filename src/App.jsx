@@ -38,7 +38,19 @@ function AppContent() {
       <MouseFollower />
       <Navbar />
       <main className="flex-grow">
-        <Suspense fallback={<div className="min-h-screen flex items-center justify-center bg-[#F8FAFC] text-slate-500 font-medium tracking-wide">Loading...</div>}>
+        <Suspense fallback={
+          <div className="min-h-screen flex flex-col items-center justify-center bg-[#F8FAFC]">
+            <div className="relative flex items-center justify-center w-24 h-24 rounded-full p-[3px] overflow-hidden shadow-lg shadow-blue-500/10 mb-4">
+              {/* Spinning gradient border */}
+              <div className="absolute inset-[-50%] magic-border-bg z-0 pointer-events-none"></div>
+              {/* Inner circle masking */}
+              <div className="relative z-10 w-full h-full bg-[#F8FAFC] rounded-full flex items-center justify-center">
+                <img src="/gnosysIcon.png" alt="Loading..." className="w-12 h-12 object-contain animate-pulse" />
+              </div>
+            </div>
+            <span className="text-slate-500 font-medium tracking-wide animate-pulse">Loading...</span>
+          </div>
+        }>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project/:slug" element={<ProjectDetails />} />
